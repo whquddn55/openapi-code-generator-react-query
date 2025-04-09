@@ -1,5 +1,5 @@
 import createClient from "openapi-fetch";
-import type { paths } from "./types";
+import type { paths } from "../types/types";
 
 const githubToken = import.meta.env.VITE_GITHUB_TOKEN;
 const baseUrl = "https://api.github.com";

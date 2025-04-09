@@ -1,5 +1,5 @@
+import { useGetQuery } from "./api/hooksWidthAxios";
 import "./App.css";
-import { useGetQuery } from "./api/hooks";
 
 function App() {
 	const { data, isLoading } = useGetQuery("/gists", {});

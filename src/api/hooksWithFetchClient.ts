@@ -1,7 +1,7 @@
 import { useMutation, useQuery } from "@tanstack/react-query";
 import client from "./client";
 import { HttpMethod, PathsWithMethod } from "openapi-typescript-helpers";
-import { paths } from "./types";
+import { paths } from "../types/types";
 import { FetchOptions } from "openapi-fetch";
 
 type Paths<M extends HttpMethod> = PathsWithMethod<paths, M>;
